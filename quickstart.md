@@ -46,3 +46,5 @@ If `everything is ok` you will see something like this in console output:
 
 ?> tutorial 2023/01/22 13:31:46 main.go:62: Application environment ENV=local <br>
 tutorial 2023/01/22 13:31:46 web.go:161: Start insecure web server at 0.0.0.0:8080
+
+[STATE OF CODE #1](https://github.com/dimonrus/tutorial/commit/6857d6a77860ef40a7eec631f5cfcd960e66ce69)
