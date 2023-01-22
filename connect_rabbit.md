@@ -36,7 +36,7 @@ Check broker works correctly.
 ```bash
 go test -v ./... -run=TestRabbitMQ
 ```
-Consumer console output will be similar like:
+Consumer console output will be similar to:
 >tutorial 2023/01/22 19:14:33 main.go:62: Application environment ENV=local<br>
 tutorial 2023/01/22 19:14:33 main.go:51: Starting AMQP Application...<br>
 tutorial 2023/01/22 19:14:33 main.go:149: Receive command: consumer start all<br>
