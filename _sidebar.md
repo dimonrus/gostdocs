@@ -1,6 +1,6 @@
 # GOST project
 
-helps you simplify PaaS development
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;helps you simplify PaaS development
 
 * Getting started
 
@@ -14,7 +14,7 @@ helps you simplify PaaS development
     - [Run migration](#run-migration)
     - [Create new migration](#create-new-migration)
   * [Run as web api](run_as_web.md)
-  * [Run as consumer](run_as_web.md)
+  * [Run as consumer](run_as_consumer.md)
   * [Run as script](run_as_script.md)
   * [Makefile commands](makefile_commands.md)
   * [Docker compose](docker_compose.md)

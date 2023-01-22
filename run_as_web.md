@@ -9,7 +9,7 @@ To run web server enter following command:
  ./tutorial -app=web
 ```
 
-After input command you will console output similar to:
+After input command you will see console output similar to:
 
 >tutorial 2023/01/22 22:55:24 main.go:62: Application environment ENV=local<br>
 tutorial 2023/01/22 22:55:24 web.go:161: Start insecure web server at 0.0.0.0:8080
