@@ -2,7 +2,7 @@
 
 At first, you need to clone [GOST](https://github.com/dimonrus/gost) repo from git into your work directory. 
 
-Ensure you have installed [GOLANG](https://go.dev/dl/) before your starts
+Ensure you have installed [GOLANG](https://go.dev/dl/) before your start
 ## Clone GOST
 
 ```bash
