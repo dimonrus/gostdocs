@@ -1,6 +1,4 @@
-# GOST project
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;helps you simplify PaaS development
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;helps you simplify SaaS development
 
 * Getting started
 
@@ -9,10 +7,6 @@
   * [Connect to Postgres](connect_postgres.md)
   * [Connect to RabbitMQ](connect_rabbit.md)
   * [Migration](migration.md)
-    - [Schema](#schema)
-    - [Data](#data)
-    - [Run migration](#run-migration)
-    - [Create new migration](#create-new-migration)
   * [Run as web api](run_as_web.md)
   * [Run as consumer](run_as_consumer.md)
   * [Run as script](run_as_script.md)
