@@ -12,6 +12,7 @@ import (
     db := base.App.GetDB()
     err := db.QueryRow(...)
 ```
+
 ## Database credentials
 Database credential configuration defined in `app/config/yaml/local.yaml`
 ```yaml
@@ -22,6 +23,7 @@ db:
   user: tutorial
   password: tutorial
 ```
+
 `0.0.0.0` means that postgres accept connections on local machine. You can set up postgres via `compose.yaml`
 
 ```bash
