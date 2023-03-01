@@ -16,8 +16,11 @@
 * Components
 
   * [Application](application/application.md)
-    * [Logger](application/logger.md)
-    * [Commander](application/commander.md)
+  * [Commander](application/commander.md)
+  * [Logger](application/logger.md)
+
+* Config
+
   * [Config](config/config.md)
-    * [Depends](config/depends.md)
-    * [ENV](config/envs.md)
+  * [Depends](config/depends.md)
+  * [ENV](config/envs.md)
