@@ -25,7 +25,6 @@ type Logger interface {
 	Errorf(format string, v ...interface{})
 }
 ```
-
 Logger interface provided by gocli is compatible with default logger and uses in most parts of gost components
 
 ## Default logger
@@ -35,12 +34,15 @@ config := gocli.LoggerConfig{Level: gocli.LogLevelDebug}
 logger := gocli.NewLogger(config)
 logger.Infoln("Some info")
 ```
+Output:
+>2023/03/04 00:20:55 common_test.go:52: Some info
+
 Logger support 4 level of logging:
 ```go
-LogLevelDebug = 1 << iota
-LogLevelInfo
-LogLevelWarn
-LogLevelErr
+LogLevelDebug = 1 << iota   // all message prints
+LogLevelInfo                // prints info, warnings, errors
+LogLevelWarn                // prints warnings and errors
+LogLevelErr                 // prints errors
 ```
 Each level of logging allows to output message with higher priority then the log level
 
@@ -71,3 +73,5 @@ logger.Errorln(ctx, "Error happened")
 ```
 Output is:
 >2023/03/04 00:14:40 common_test.go:48: app: tutorial  rid: 29B28722-850A-CBD2-86DE-9C719D2B4BD7 Error happened
+
+[STATE OF CODE #9](https://github.com/dimonrus/tutorial/commit/72c8860964b2d08aa6286b288fb5ad670cffaa90)
