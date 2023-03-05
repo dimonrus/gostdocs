@@ -13,7 +13,6 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      search: 'auto',
       loadSidebar: true,
       maxLevel: 4,
       subMaxLevel: 2,
@@ -21,7 +20,14 @@
         '/.*/_sidebar.md': '/_sidebar.md'
       },
       name: '',
-      repo: ''
+      repo: '',
+      search: {
+        paths: 'auto',
+        placeholder: 'Type to search',
+        noData: 'No Results!',
+        depth: 4,
+        hideOtherSidebarContent: false,
+      },
     }
   </script>
   <!-- Docsify v4 -->
