@@ -1,5 +1,3 @@
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;helps you simplify SaaS development
-
 * Getting started
 
   * [Quick start](quickstart/quickstart.md)

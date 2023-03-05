@@ -1,3 +1,3 @@
-# Headline
+# Gost Project
 
-> An awesome project.
+> Helps you simplify SaaS development.
