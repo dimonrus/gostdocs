@@ -11,7 +11,7 @@ on ENV variable
 
 For example if ENV=local config parser will read local.yaml
 
-If yaml file contains key [`depends`](depends.md) with none empty value config parser then 
+If yaml file contains key [`depends`](config/depends.md) with none empty value config parser then 
 parsed at first file with name of `depends` key value and then file witch named of ENV var value i e local.yaml
 
 This mechanism allows to override configs depends on unlimited environments
