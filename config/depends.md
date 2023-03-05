@@ -1,6 +1,6 @@
 # Depends
 
-## Config depends
+## Inherits
 Every config `.yaml` file possible to define dependence on other `.yaml` config file
 
 It allows to build deep config inherits in infrastructure environment

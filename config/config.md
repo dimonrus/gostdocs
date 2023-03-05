@@ -1,18 +1,18 @@
 # Config
 
 ## Project config
-`app/config/config.go` contains all project configs. Main config struct is `Config`<br>
-Each key of `Config` struct must have yaml tag.
+Main configuration file `app/config/config.go` contains all project configs. Main config struct is `Config`<br>
+Each field of `Config` struct must have yaml tag.
 
-All environment keys contains in *.yaml files in `app/config/yaml`
+Every `Config` field values persists in `*.yaml` files in `app/config/yaml` directory
 
-Application initiate config ones at start. Config parser method will parse *.yaml file depends
+Application initiate config ones at start. Config parser method will parse `*.yaml` file depends
 on ENV variable
 
-For example if ENV=local config parser will read local.yaml
+For example if `ENV=local` config parser will read `local.yaml`
 
-If yaml file contains key [`depends`](config/depends.md) with none empty value config parser then 
-parsed at first file with name of `depends` key value and then file witch named of ENV var value i e local.yaml
+If yaml file contains key [`depends`](config/depends.md) with none empty value then config parser will
+parse at first, file with name of `depends` key value and then file witch named of ENV var value i e local.yaml
 
 This mechanism allows to override configs depends on unlimited environments
 
